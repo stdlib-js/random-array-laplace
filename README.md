@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-laplace@deno/mod.js';
+import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-laplace@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-laplace@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-laplace@v0.2.0-deno/mod.js';
 ```
 
 #### laplace( len, mu, b\[, options] )
@@ -338,7 +338,7 @@ var sz = random.byteLength;
 
 ```javascript
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
-import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-laplace@deno/mod.js';
+import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-laplace@v0.2.0-deno/mod.js';
 
 // Create a function for generating random arrays originating from the same state:
 var random = laplace.factory( 2.0, 5.0, {
